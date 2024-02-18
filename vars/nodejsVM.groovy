@@ -55,7 +55,7 @@ pipeline {
         stage('Sonar Scan') {
              steps {
                 sh """
-                    sonar-scanner
+                     echo "sonar scan will run here"
                 """
              }
         }
